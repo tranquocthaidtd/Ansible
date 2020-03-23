@@ -1,3 +1,4 @@
+#Ben duoi la mot so module cau hinh NXOS ho tro.
 ---
 - name: Tao L2VNI
   hosts: nxos1
@@ -26,4 +27,4 @@
       nxos_l2_interface:
         name: Ethernet1/3
         mode: access
-        access_vlan: 50
+        access_vlan: 50    
